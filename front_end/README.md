@@ -262,7 +262,7 @@ The app is fully integrated with Firebase - no backend server needed!
 - `analyzeFood()` - AI image recognition for nutrition (TODO)
 - `getAIInsights()` - Personalized health recommendations (TODO)
 
-**Setup:** See [FIRESTORE_SETUP.md](../FIRESTORE_SETUP.md) for Firebase configuration.
+**Setup:** See [FIRESTORE_SETUP.md](../docs/FIRESTORE_SETUP.md) for Firebase configuration.
 
 ---
 

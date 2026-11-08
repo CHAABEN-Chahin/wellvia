@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpeg" alt="Wellvia logo" width="180"/>
+  <img src="assets/logo.jpeg" alt="Wellvia logo" width="180"/>
 </p>
 
 <h1 align="center">Wellvia</h1>
@@ -26,7 +26,7 @@
 Wellvia turns raw data from a wrist-worn sensor and from everyday habits into health insights you can act on. The mobile app reads vitals from an ESP32 wearable over Bluetooth Low Energy, raises alerts when readings look abnormal, tracks workouts and meals, and includes an AI assistant you can chat with about your data.
 
 <p align="center">
-  <img src="watch_prototype.jpeg" alt="Wellvia wearable prototype" width="220"/>
+  <img src="assets/watch_prototype.jpeg" alt="Wellvia wearable prototype" width="220"/>
 </p>
 
 ## Features
@@ -64,7 +64,7 @@ Wellvia turns raw data from a wrist-worn sensor and from everyday habits into he
 - **Hardware**: An ESP32 microcontroller with health sensors (circuit below).
 
 <p align="center">
-  <img src="circuit_diagram.jpeg" alt="ESP32 circuit diagram" width="620"/>
+  <img src="assets/circuit_diagram.jpeg" alt="ESP32 circuit diagram" width="620"/>
 </p>
 
 ## Repository structure
@@ -87,7 +87,8 @@ Wellvia turns raw data from a wrist-worn sensor and from everyday habits into he
 │   │   └── main.py
 │   └── requirements.txt
 ├── firestore.rules         # Firestore security rules
-└── *.md                    # integration & implementation notes
+├── docs/                   # integration & implementation notes
+└── assets/                 # logo, wearable prototype, circuit diagram
 ```
 
 ## Getting started
@@ -131,7 +132,7 @@ flutter run
 
 > **Note:** the meal-photo screen calls the backend's `/get_calories` endpoint through a URL set in `lib/screens/nutrition/log_meal_screen.dart`. Point it at your own backend before using that feature.
 
-More detail: [`front_end/SETUP.md`](front_end/SETUP.md) · [`front_end/DEVELOPER_GUIDE.md`](front_end/DEVELOPER_GUIDE.md) · [`FIRESTORE_SETUP.md`](FIRESTORE_SETUP.md)
+More detail: [`front_end/SETUP.md`](front_end/SETUP.md) · [`front_end/DEVELOPER_GUIDE.md`](front_end/DEVELOPER_GUIDE.md) · [`docs/FIRESTORE_SETUP.md`](docs/FIRESTORE_SETUP.md)
 
 ## Security
 
